@@ -1,0 +1,6 @@
+{
+  "extends": "@rambler-tech/typedoc-config",
+  "name": "@rambler-tech/",
+  "entryPoints": "packages/*",
+  "out": "public"
+}
