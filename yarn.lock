@@ -5236,6 +5236,11 @@ kleur@^3.0.3:
   resolved "https://registry.yarnpkg.com/kleur/-/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
   integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
 
+koo@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/koo/-/koo-1.5.0.tgz#2ceae4d01d7a63fbd2760e0cd345b1c8bf89325b"
+  integrity sha512-aiNHS2HPjsN1l/IC1Wcfx4LvQDTO3BqwCnWSl4IE0pTX0RVRgQgNMqEd1Df1jt23WFBsNIp/Azx5K6ZbgkQmqw==
+
 language-subtag-registry@~0.3.2:
   version "0.3.22"
   resolved "https://registry.yarnpkg.com/language-subtag-registry/-/language-subtag-registry-0.3.22.tgz#2e1500861b2e457eba7e7ae86877cbd08fa1fd1d"

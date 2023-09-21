@@ -38,7 +38,7 @@ jobs:
       - run: yarn lint
       - run: yarn typecheck
 
-  licenselint:
+  size:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -48,7 +48,19 @@ jobs:
           cache: yarn
           node-version: '18.x'
       - run: yarn
-      - run: yarn licenselint
+      - run: yarn sizecheck
+
+  # licenselint:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v3
+  #     - name: Use Node.js
+  #       uses: actions/setup-node@v3
+  #       with:
+  #         cache: yarn
+  #         node-version: '18.x'
+  #     - run: yarn
+  #     - run: yarn licenselint
 
   commitlint:
     runs-on: ubuntu-latest

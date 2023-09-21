@@ -6,7 +6,6 @@
     "strictPropertyInitialization": false,
     "lib": ["dom", "esnext"],
     "baseUrl": ".",
-    "outDir": "dist",
     "declaration": true,
     "paths": {
       "@rambler-tech/*": ["./packages/*"]

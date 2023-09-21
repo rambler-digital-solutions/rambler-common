@@ -1,1 +1,6 @@
-[]
+[
+  {
+    "path": "packages/cookie-storage/dist/index.js",
+    "limit": "990 B"
+  }
+]
