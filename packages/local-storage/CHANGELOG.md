@@ -7,4 +7,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-- **session-storage:** init ([b097782](https://github.com/rambler-digital-solutions/rambler-common/commit/b097782b6f44a32f5385b8f95fce08c23aed72f9))
+- **local-storage:** init ([731b8c4](https://github.com/rambler-digital-solutions/rambler-common/commit/731b8c46abac428bcce5bb75f91db7b5b25f9911))

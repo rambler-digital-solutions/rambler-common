@@ -4,6 +4,10 @@ Common utils used by Rambler team
 
 ## Packages
 
+- [@rambler-tech/cookie-storage](packages/cookie-storage)
+- [@rambler-tech/local-storage](packages/local-storage)
+- [@rambler-tech/session-storage](packages/session-storage)
+
 ## Contributing
 
 ### Dev environment
