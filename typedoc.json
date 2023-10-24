@@ -1,7 +1,12 @@
 {
   "extends": "@rambler-tech/typedoc-config",
+  "customTitle": "Rambler Common",
+  "customDescription": "Common utils used by Rambler team",
   "readme": "README.md",
-  "name": "@rambler-tech/",
   "entryPoints": "packages/*",
-  "out": "public"
+  "entryPointStrategy": "packages",
+  "out": "public",
+  "navigationLinks": {
+    "Github": "https://github.com/rambler-digital-solutions/rambler-common"
+  }
 }

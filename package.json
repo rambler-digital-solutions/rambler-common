@@ -29,7 +29,7 @@
     "@rambler-tech/licenselint-config": "^0.0.2",
     "@rambler-tech/prettier-config": "^0.0.2",
     "@rambler-tech/ts-config": "^0.0.2",
-    "@rambler-tech/typedoc-config": "^0.0.2",
+    "@rambler-tech/typedoc-config": "^0.3.0",
     "@size-limit/preset-small-lib": "^9.0.0",
     "@types/jest": "^29.5.5",
     "abortcontroller-polyfill": "^1.7.5",
@@ -45,7 +45,7 @@
     "react": "^18.2.0",
     "size-limit": "^9.0.0",
     "ts-jest": "^29.1.1",
-    "typedoc": "^0.25.1",
+    "typedoc": "^0.25.2",
     "typescript": "^5.2.2",
     "whatwg-fetch": "^3.6.19"
   },
