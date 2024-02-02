@@ -13,5 +13,5 @@
     "skipLibCheck": true
   },
   "include": ["packages", "types"],
-  "exclude": ["node_modules", "**/dist", "**/*.test.ts"]
+  "exclude": ["node_modules", "**/dist"]
 }

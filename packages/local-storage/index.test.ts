@@ -1,4 +1,4 @@
-import {getItem, setItem, removeItem} from './'
+import {getItem, setItem, removeItem} from '.'
 
 class LocalStorage implements LocalStorage {
   map: {[key: string]: any} = {}

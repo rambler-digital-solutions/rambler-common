@@ -1,3 +1,5 @@
+/* eslint-disable import/no-unused-modules */
+
 /** Session storage item options */
 export interface StorageItemOptions {
   /** Use the raw value, by default the value is converted to JSON */

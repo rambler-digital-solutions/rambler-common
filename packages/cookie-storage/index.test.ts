@@ -1,4 +1,4 @@
-import {getAll, getItem, setItem, removeItem} from './'
+import {getAll, getItem, setItem, removeItem} from '.'
 
 const TEST_VALUES: Record<string, any> = {
   string: 'bar',

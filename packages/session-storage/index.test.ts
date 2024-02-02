@@ -1,4 +1,4 @@
-import {getItem, setItem, removeItem} from './'
+import {getItem, setItem, removeItem} from '.'
 
 class SessionStorage implements SessionStorage {
   map: {[key: string]: any} = {}

@@ -1,4 +1,5 @@
-import {get, set, remove, CookieOptions} from 'koo'
+/* eslint-disable import/no-unused-modules */
+import {get, set, remove, type CookieOptions} from 'koo'
 
 /** Cookie storage item options */
 export interface CookieItemOptions {
