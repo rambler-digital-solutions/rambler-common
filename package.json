@@ -25,7 +25,7 @@
     "@commitlint/cli": "^17.6.6",
     "@commitlint/config-conventional": "^17.6.6",
     "@rambler-digital-solutions/licenselint": "^1.2.0",
-    "@rambler-tech/eslint-config": "^0.9.3",
+    "@rambler-tech/eslint-config": "^0.10.4",
     "@rambler-tech/licenselint-config": "^0.0.2",
     "@rambler-tech/prettier-config": "^0.1.0",
     "@rambler-tech/ts-config": "^0.1.0",
