@@ -1,6 +1,6 @@
 {
   "name": "@rambler-tech/cookie-storage",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "main": "dist",
   "module": "dist",
   "types": "dist/index.d.ts",
