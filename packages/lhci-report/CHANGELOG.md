@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/rambler-digital-solutions/rambler-common/compare/@rambler-tech/lhci-report@0.1.1...@rambler-tech/lhci-report@0.1.2) (2024-03-22)
+
+### Bug Fixes
+
+- **lhci-report:** fix publishing ([d73d90e](https://github.com/rambler-digital-solutions/rambler-common/commit/d73d90e8e2d0495dd84d2423d910fc79ebd5c709))
+
 ## [0.1.1](https://github.com/rambler-digital-solutions/rambler-common/compare/@rambler-tech/lhci-report@0.1.0...@rambler-tech/lhci-report@0.1.1) (2024-03-22)
 
 ### Bug Fixes
