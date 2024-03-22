@@ -5,19 +5,19 @@ Print Lighthouse CI report to CLI
 ## Install
 
 ```
-npm install -D eslint @rambler-tech/lhci-report
+npm install -D @rambler-tech/lhci-report
 ```
 
 or
 
 ```
-yarn add -D eslint @rambler-tech/lhci-report
+yarn add -D @rambler-tech/lhci-report
 ```
 
 ## Usage
 
 ```sh
-@rambler-tech/lhci-report <lhci report dir>
+lhci-report <lhci report dir>
 
 Lighthouse report
 
