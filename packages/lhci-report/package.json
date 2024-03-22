@@ -4,6 +4,9 @@
   "bin": {
     "lhci-report": "dist/cli.js"
   },
+  "files": [
+    "dist"
+  ],
   "types": "dist/cli.d.ts",
   "license": "MIT",
   "sideEffects": false,
