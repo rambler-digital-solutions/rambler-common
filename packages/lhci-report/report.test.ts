@@ -1,6 +1,6 @@
 import {getReport} from './report'
 
-test('get the report', () => {
+test('get a report', () => {
   const mock = [
     {
       url: 'http://example.com',

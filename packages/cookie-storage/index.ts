@@ -3,7 +3,7 @@ import {get, set, remove, type CookieOptions} from 'koo'
 
 /** Cookie storage item options */
 export interface CookieItemOptions {
-  /** Use the raw value, by default the value is converted to JSON */
+  /** Use raw value, by default the value is converted to JSON */
   raw?: boolean
 }
 

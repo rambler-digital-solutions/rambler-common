@@ -1512,10 +1512,10 @@
   resolved "https://registry.yarnpkg.com/@rambler-tech/ts-config/-/ts-config-0.1.1.tgz#02ae41b7909923b341391d8411c708abff2a00c4"
   integrity sha512-gQiGU7x3wjdclv9rxgelAlmBNeRJBpxg+nXjmmUzspIOBp4f7u6cOmxKFYlmBJMpk9CyvpHlTG+YFIZ8t6W9Jw==
 
-"@rambler-tech/typedoc-config@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@rambler-tech/typedoc-config/-/typedoc-config-0.3.0.tgz#67feae1cadcf34d6e734831980fb2f92a2919c83"
-  integrity sha512-W51DBbvg1LD3IIN8rXbOlzWtDFTJcXkXnV6iZ5bN/WdVjUrsSqXZt0M7GFT9UQfGSWv/fgbErFzFSvhnEBnAdg==
+"@rambler-tech/typedoc-config@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@rambler-tech/typedoc-config/-/typedoc-config-0.3.1.tgz#721edd9fe42a4e9f18c9794ff9a93f64ef0911c7"
+  integrity sha512-fo+DUZ0zn/vAc+N6kOiIID3MmMwEZbFCFgDZqM1XbEhNhxx927MhdhHj8Oy0q0XDmwG4n9/Zp0I/AsSI43yj5g==
   dependencies:
     "@knodes/typedoc-plugin-pages" "^0.23.4"
     typedoc-plugin-extras "^3.0.0"

@@ -2,7 +2,7 @@
 
 /** Session storage item options */
 export interface StorageItemOptions {
-  /** Use the raw value, by default the value is converted to JSON */
+  /** Use raw value, by default the value is converted to JSON */
   raw?: boolean
 }
 

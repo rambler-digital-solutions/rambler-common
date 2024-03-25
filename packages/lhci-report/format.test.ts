@@ -1,7 +1,7 @@
 import {green, red, yellow} from 'chalk'
 import {formatReport} from './format'
 
-test('format the report', () => {
+test('format a report', () => {
   const mock = {
     'http://example.com': {
       performance: [1, 0.9],
