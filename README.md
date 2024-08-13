@@ -5,6 +5,7 @@ Common utils used by Rambler team
 ## Packages
 
 - [@rambler-tech/cookie-storage](packages/cookie-storage)
+- [@rambler-tech/errors](packages/errors)
 - [@rambler-tech/local-storage](packages/local-storage)
 - [@rambler-tech/session-storage](packages/session-storage)
 - [@rambler-tech/lhci-report](packages/lhci-report)
