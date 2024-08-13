@@ -8,6 +8,7 @@ Common utils used by Rambler team
 - [@rambler-tech/local-storage](packages/local-storage)
 - [@rambler-tech/session-storage](packages/session-storage)
 - [@rambler-tech/lhci-report](packages/lhci-report)
+- [@rambler-tech/splits](packages/splits)
 
 ## Contributing
 
