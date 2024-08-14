@@ -1,4 +1,4 @@
-<!DOCTYPE html><html class="default" lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>@rambler-tech/lhci-report | Documentation</title><meta name="description" content="Common utils used by Rambler team"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="../assets/style.css"/><link rel="stylesheet" href="../assets/highlight.css"/><link rel="stylesheet" href="../assets/custom.css"/><script defer src="../assets/main.js"></script><script async src="../assets/search.js" id="tsd-search-script"></script><script async src="../assets/navigation.js" id="tsd-nav-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os"</script><header class="tsd-page-toolbar">
+<!DOCTYPE html><html class="default" lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>encodeURIComponentRFC3986 | Documentation</title><meta name="description" content="Common utils used by Rambler team"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="../assets/style.css"/><link rel="stylesheet" href="../assets/highlight.css"/><link rel="stylesheet" href="../assets/custom.css"/><script defer src="../assets/main.js"></script><script async src="../assets/search.js" id="tsd-search-script"></script><script async src="../assets/navigation.js" id="tsd-nav-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os"</script><header class="tsd-page-toolbar">
 <div class="tsd-toolbar-contents container">
 <div class="table-cell" id="tsd-search" data-base="..">
 <div class="field"><label for="tsd-search-field" class="tsd-widget tsd-toolbar-icon search no-caption"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><use href="#icon-search"></use></svg></label><input type="text" id="tsd-search-field" aria-label="Search"/></div>
@@ -13,17 +13,25 @@
 <div class="tsd-page-title">
 <ul class="tsd-breadcrumb">
 <li><a href="../index.html">Documentation</a></li>
-<li><a href="_rambler_tech_lhci_report.html">@rambler-tech/lhci-report</a></li></ul>
-<h1>Module @rambler-tech/lhci-report</h1></div>
-<section class="tsd-panel tsd-typography"><a id="md:lighthouse-ci-report" class="tsd-anchor"></a><h1><a href="#md:lighthouse-ci-report">Lighthouse CI report</a></h1><p>Print Lighthouse CI report to CLI</p>
-<a id="md:install" class="tsd-anchor"></a><h2><a href="#md:install">Install</a></h2><pre><code><span class="hl-3">npm</span><span class="hl-1"> </span><span class="hl-3">install</span><span class="hl-1"> -</span><span class="hl-4">D</span><span class="hl-1"> @</span><span class="hl-3">rambler</span><span class="hl-1">-</span><span class="hl-3">tech</span><span class="hl-1">/</span><span class="hl-3">lhci</span><span class="hl-1">-</span><span class="hl-3">report</span>
-</code><button>Copy</button></pre>
-<p>or</p>
-<pre><code><span class="hl-3">yarn</span><span class="hl-1"> </span><span class="hl-3">add</span><span class="hl-1"> -</span><span class="hl-4">D</span><span class="hl-1"> @</span><span class="hl-3">rambler</span><span class="hl-1">-</span><span class="hl-3">tech</span><span class="hl-1">/</span><span class="hl-3">lhci</span><span class="hl-1">-</span><span class="hl-3">report</span>
-</code><button>Copy</button></pre>
-<a id="md:usage" class="tsd-anchor"></a><h2><a href="#md:usage">Usage</a></h2><pre><code class="language-sh"><span class="hl-0">lhci-report</span><span class="hl-1"> &lt;</span><span class="hl-2">lhci</span><span class="hl-1"> </span><span class="hl-2">report</span><span class="hl-1"> </span><span class="hl-2">di</span><span class="hl-1">r&gt;</span><br/><br/><span class="hl-0">Lighthouse</span><span class="hl-1"> </span><span class="hl-2">report</span><br/><br/><span class="hl-0">URL:</span><span class="hl-1"> </span><span class="hl-2">https://www.rambler.ru/</span><br/><span class="hl-0">Number</span><span class="hl-1"> </span><span class="hl-2">of</span><span class="hl-1"> </span><span class="hl-2">runs:</span><span class="hl-1"> </span><span class="hl-5">3</span><br/><br/><span class="hl-0">performance</span><span class="hl-1">         </span><span class="hl-5">0.93</span><span class="hl-1">  </span><span class="hl-5">0.94</span><span class="hl-1">  </span><span class="hl-5">0.94</span><br/><span class="hl-0">accessibility</span><span class="hl-1">       </span><span class="hl-5">0.87</span><span class="hl-1">  </span><span class="hl-5">0.87</span><span class="hl-1">  </span><span class="hl-5">0.87</span><br/><span class="hl-0">best-practices</span><span class="hl-1">      </span><span class="hl-5">0.52</span><span class="hl-1">  </span><span class="hl-5">0.56</span><span class="hl-1">  </span><span class="hl-5">0.56</span><br/><span class="hl-0">seo</span><span class="hl-1">                 </span><span class="hl-5">0.92</span><span class="hl-1">  </span><span class="hl-5">0.92</span><span class="hl-1">  </span><span class="hl-5">0.92</span><br/><span class="hl-0">pwa</span><span class="hl-1">                 </span><span class="hl-5">0.71</span><span class="hl-1">  </span><span class="hl-5">0.71</span><span class="hl-1">  </span><span class="hl-5">0.71</span>
-</code><button>Copy</button></pre>
-</section></div>
+<li><a href="../modules/_rambler_tech_url.html">@rambler-tech/url</a></li>
+<li><a href="_rambler_tech_url.encodeURIComponentRFC3986.html">encodeURIComponentRFC3986</a></li></ul>
+<h1>Function encodeURIComponentRFC3986</h1></div>
+<section class="tsd-panel">
+<ul class="tsd-signatures">
+<li class="tsd-signature tsd-anchor-link" id="encodeURIComponentRFC3986"><span class="tsd-kind-call-signature">encodeURIComponentRFC3986</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">value</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><a href="#encodeURIComponentRFC3986" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Encode URI for RFC3986</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent</a></p>
+</div>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">value</span>: <span class="tsd-signature-type">string</span></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+<div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/rambler-digital-solutions/rambler-common/blob/4a6d8ba/packages/url/index.ts#L124">index.ts:124</a></li></ul></aside></li></ul></section></div>
 <div class="col-sidebar">
 <div class="page-menu">
 <div class="tsd-navigation settings">
@@ -35,31 +43,20 @@
 <ul id="tsd-filter-options">
 <li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-inherited" name="inherited" checked/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Inherited</span></label></li></ul></form></div>
 <div class="tsd-theme-toggle">
-<h4 class="uppercase">Theme</h4><select id="tsd-theme"><option value="os">OS</option><option value="light">Light</option><option value="dark">Dark</option></select></div></div></details></div>
-<details open class="tsd-index-accordion tsd-page-navigation"><summary class="tsd-accordion-summary">
-<h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><use href="#icon-chevronDown"></use></svg>On This Page</h3></summary>
-<div class="tsd-accordion-details">
-<ul>
-<li>
-<ul>
-<li><a href="#md:lighthouse-ci-report"><span>Lighthouse CI report</span></a></li>
-<li>
-<ul>
-<li><a href="#md:install"><span>Install</span></a></li>
-<li><a href="#md:usage"><span>Usage</span></a></li></ul></li></ul></li></ul></div></details></div>
+<h4 class="uppercase">Theme</h4><select id="tsd-theme"><option value="os">OS</option><option value="light">Light</option><option value="dark">Dark</option></select></div></div></details></div></div>
 <div class="site-menu">
 <nav class="tsd-navigation"><a href="../index.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1"></use></svg><span>Documentation</span></a>
 <ul class="tsd-small-nested-navigation" id="tsd-nav-container" data-base="..">
-<li><a href="_rambler_tech_cookie_storage.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>@rambler-tech/cookie-storage - v0.2.4</a></li>
-<li><a href="_rambler_tech_lhci_report.html" class="current"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>@rambler-tech/lhci-report</a></li>
-<li><a href="_rambler_tech_local_storage.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>@rambler-tech/local-storage - v0.1.4</a></li>
-<li><a href="_rambler_tech_session_storage.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>@rambler-tech/session-storage - v0.1.4</a></li>
-<li><a href="_rambler_tech_url.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>@rambler-tech/url - v0.0.0</a></li></ul></nav></div></div></div>
+<li><a href="../modules/_rambler_tech_cookie_storage.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>@rambler-tech/cookie-storage - v0.2.4</a></li>
+<li><a href="../modules/_rambler_tech_lhci_report.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>@rambler-tech/lhci-report</a></li>
+<li><a href="../modules/_rambler_tech_local_storage.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>@rambler-tech/local-storage - v0.1.4</a></li>
+<li><a href="../modules/_rambler_tech_session_storage.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>@rambler-tech/session-storage - v0.1.4</a></li>
+<li><a href="../modules/_rambler_tech_url.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>@rambler-tech/url - v0.0.0</a></li></ul></nav></div></div></div>
 <div class="tsd-generator">
 <p style="line-height: 28px;">Generated using <a href="https://typedoc.org/" rel="noopener" target="_blank">TypeDoc</a><br>
             <span id="generation-date"></span>
             <script>
-                window.GENERATION_DATE = 1723633194027;
+                window.GENERATION_DATE = 1723633194069;
 
                 (() => {
                     
