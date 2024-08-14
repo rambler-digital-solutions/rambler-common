@@ -10,6 +10,7 @@ Common utils used by Rambler team
 - [@rambler-tech/dom](packages/dom)
 - [@rambler-tech/lhci-report](packages/lhci-report)
 - [@rambler-tech/local-storage](packages/local-storage)
+- [@rambler-tech/react](packages/react)
 - [@rambler-tech/session-storage](packages/session-storage)
 - [@rambler-tech/url](packages/url)
 
