@@ -1,5 +1,9 @@
 [
   {
+    "path": "packages/async/dist/index.js",
+    "limit": "400 B"
+  },
+  {
     "path": "packages/cookie-storage/dist/index.js",
     "limit": "990 B"
   },
