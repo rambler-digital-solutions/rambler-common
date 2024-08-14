@@ -13,6 +13,7 @@ Common utils used by Rambler team
 - [@rambler-tech/local-storage](packages/local-storage)
 - [@rambler-tech/react](packages/react)
 - [@rambler-tech/session-storage](packages/session-storage)
+- [@rambler-tech/splits](packages/splits)
 - [@rambler-tech/url](packages/url)
 
 ## Contributing

@@ -32,6 +32,10 @@
     "limit": "290 B"
   },
   {
+    "path": "packages/splits/dist/index.js",
+    "limit": "1.6 KB"
+  },
+  {
     "path": "packages/url/dist/index.js",
     "limit": "675 B"
   }
