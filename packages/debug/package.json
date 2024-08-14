@@ -10,8 +10,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@rambler-tech/local-storage": "*",
-    "@rambler-tech/url": "*",
+    "@rambler-tech/local-storage": "^0.1.4",
+    "@rambler-tech/url": "^0.1.0",
     "@types/debug": "^4.1.7",
     "debug": "^3"
   }
