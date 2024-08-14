@@ -11,8 +11,12 @@ export interface Top100Options {
   params?: Record<string, any>
 }
 
+/** Top 100 counter */
 export class Top100 {
+  /** Counter options */
   options: Top100Options
+
+  /** Promise that resolves when counter is ready */
   ready: Promise<void>
 
   constructor(options: Top100Options) {
@@ -84,18 +88,22 @@ export class Top100 {
     } catch {}
   }
 
+  /** Send custom vars */
   async sendCustomVars(params: Record<string, any>) {
     await this.run('sendCustomVars', params)
   }
 
+  /** Track page view */
   async trackPageview() {
     await this.run('trackPageview')
   }
 
+  /** Track event */
   async trackEvent(eventName: string, eventData: Record<string, any>) {
     await this.run('trackEvent', eventName, eventData)
   }
 
+  /** Update counter options */
   async updateOptions(options: Record<string, any>) {
     await this.run('updateOptions', options)
   }

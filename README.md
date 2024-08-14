@@ -9,7 +9,10 @@ Common utils used by Rambler team
 - [@rambler-tech/lhci-report](packages/lhci-report)
 - [@rambler-tech/local-storage](packages/local-storage)
 - [@rambler-tech/session-storage](packages/session-storage)
+- [@rambler-tech/tns-counter](packages/tns-counter)
+- [@rambler-tech/top-100](packages/top-100)
 - [@rambler-tech/url](packages/url)
+- [@rambler-tech/yandex-metrica](packages/yandex-metrica)
 
 ## Contributing
 

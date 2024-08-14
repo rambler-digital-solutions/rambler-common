@@ -16,7 +16,19 @@
     "limit": "290 B"
   },
   {
+    "path": "packages/tns-counter/dist/index.js",
+    "limit": "450 B"
+  },
+  {
+    "path": "packages/top-100/dist/index.js",
+    "limit": "4.1 KB"
+  },
+  {
     "path": "packages/url/dist/index.js",
     "limit": "675 B"
+  },
+  {
+    "path": "packages/yandex-metrica/dist/index.js",
+    "limit": "4.0 KB"
   }
 ]

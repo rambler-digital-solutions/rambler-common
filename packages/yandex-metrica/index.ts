@@ -19,9 +19,12 @@ export interface YandexMetricaOptions {
   params?: Record<string, any>
 }
 
-/** Yandex Metrica */
+/** Yandex Metrica counter */
 export class YandexMetrica {
+  /** Counter options */
   options: YandexMetricaOptions
+
+  /** Promise that resolves when counter is ready */
   ready: Promise<void>
 
   constructor(options: YandexMetricaOptions) {
@@ -74,14 +77,17 @@ export class YandexMetrica {
     } catch {}
   }
 
+  /** Track hit */
   async hit(params: Record<string, any>) {
     await this.run('hit', params)
   }
 
+  /** Set params */
   async setParams(params: Record<string, any>) {
     await this.run('params', params)
   }
 
+  /** Reach goal */
   async reachGoal(...args: any[]) {
     await this.run('reachGoal', ...args)
   }
