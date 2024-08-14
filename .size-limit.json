@@ -10,5 +10,9 @@
   {
     "path": "packages/session-storage/dist/index.js",
     "limit": "290 B"
+  },
+  {
+    "path": "packages/url/dist/index.js",
+    "limit": "675 B"
   }
 ]
