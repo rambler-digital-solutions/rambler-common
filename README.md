@@ -6,6 +6,7 @@ Common utils used by Rambler team
 
 - [@rambler-tech/async](packages/async)
 - [@rambler-tech/cookie-storage](packages/cookie-storage)
+- [@rambler-tech/crypto](packages/crypto)
 - [@rambler-tech/debug](packages/debug)
 - [@rambler-tech/dom](packages/dom)
 - [@rambler-tech/lhci-report](packages/lhci-report)

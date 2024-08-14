@@ -8,6 +8,10 @@
     "limit": "990 B"
   },
   {
+    "path": "packages/crypto/dist/index.js",
+    "limit": "27.3 KB"
+  },
+  {
     "path": "packages/debug/dist/index.js",
     "limit": "3.4 KB"
   },
