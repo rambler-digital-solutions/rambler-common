@@ -3,8 +3,10 @@ const crypto =
     ? window.crypto || window.msCrypto
     : (null as unknown as Crypto)
 
+/** Web Crypto API */
 export const subtle = crypto?.subtle || crypto?.webkitSubtle
 
+/** Check is Web Crypto supported */
 export function isSupported() {
   return !!crypto
 }
@@ -20,6 +22,7 @@ type TypedArray =
   | Float32Array
   | Float64Array
 
+/** Get cryptographically strong random values */
 export function getRandomValues<T extends TypedArray>(typedArray: T): T {
   return crypto.getRandomValues(typedArray)
 }
