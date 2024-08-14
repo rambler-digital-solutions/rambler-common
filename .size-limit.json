@@ -8,6 +8,10 @@
     "limit": "290 B"
   },
   {
+    "path": "packages/react/dist/index.js",
+    "limit": "4.25 KB"
+  },
+  {
     "path": "packages/session-storage/dist/index.js",
     "limit": "290 B"
   },
