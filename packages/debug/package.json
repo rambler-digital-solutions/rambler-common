@@ -1,6 +1,6 @@
 {
   "name": "@rambler-tech/debug",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "dist",
   "module": "dist",
   "types": "dist/index.d.ts",
@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@rambler-tech/local-storage": "^0.1.4",
-    "@rambler-tech/url": "^0.1.0",
+    "@rambler-tech/url": "^0.1.1",
     "@types/debug": "^4.1.7",
     "debug": "^3"
   }
