@@ -4,6 +4,10 @@
     "limit": "990 B"
   },
   {
+    "path": "packages/debug/dist/index.js",
+    "limit": "3.4 KB"
+  },
+  {
     "path": "packages/local-storage/dist/index.js",
     "limit": "290 B"
   },
