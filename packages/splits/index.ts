@@ -74,6 +74,7 @@ export class Splits {
   private tests: SplitTest[]
   private options: SplitsOptions
 
+  /** Splits constructor */
   public constructor(tests: SplitTest[], options: SplitsOptions = {}) {
     if (!Array.isArray(tests) || !tests.length) {
       throw new Error('expected `settings.tests` is not empty array')

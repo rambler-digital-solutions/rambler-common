@@ -28,6 +28,7 @@ export class GenericError extends Error {
   code: GenericErrorInput['code']
   details?: GenericErrorInput['details']
 
+  /** Generic error constructor */
   constructor(message: string, input?: GenericErrorInput) {
     super()
     this.name = 'GenericError'

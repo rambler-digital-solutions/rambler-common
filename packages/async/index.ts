@@ -3,7 +3,8 @@
 const RETRIES_LEFT = 3
 const INTERVAL = 500
 
-export type PromiseFactory<T> = (...args: any[]) => Promise<T>
+/** Retryable function */
+export type RetryableFunction<T> = (...args: any[]) => Promise<T>
 
 /** Retry options */
 export interface RetryOptions {
@@ -19,15 +20,15 @@ export interface RetryOptions {
 
 /** Retry function call */
 export function retry<T>(
-  factory: PromiseFactory<T>,
+  retryableFunction: RetryableFunction<T>,
   options: RetryOptions = {}
-): PromiseFactory<T> {
+): RetryableFunction<T> {
   let {retries = RETRIES_LEFT} = options
   const {timeout = INTERVAL, shouldRetry = () => true, signal} = options
 
   async function call(...args: any[]): Promise<T> {
     try {
-      return await factory(...args)
+      return await retryableFunction(...args)
     } catch (error: any) {
       if (--retries < 1 || !shouldRetry(error)) {
         throw error

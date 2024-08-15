@@ -11,7 +11,8 @@ export function isSupported() {
   return !!crypto
 }
 
-type TypedArray =
+/** Typed array */
+export type TypedArray =
   | Int8Array
   | Uint8Array
   | Uint8ClampedArray

@@ -1,5 +1,5 @@
 /* eslint-disable import/no-unused-modules */
-export {getRandomValues, isSupported, subtle} from './crypto'
+export {getRandomValues, isSupported, subtle, type TypedArray} from './crypto'
 export {
   bufferFromString,
   stringFromBuffer,
