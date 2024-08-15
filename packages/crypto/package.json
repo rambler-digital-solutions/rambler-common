@@ -1,6 +1,6 @@
 {
-  "name": "@rambler-tech/debug",
-  "version": "0.1.2",
+  "name": "@rambler-tech/crypto",
+  "version": "0.1.0",
   "main": "dist",
   "module": "dist",
   "types": "dist/index.d.ts",
@@ -10,9 +10,9 @@
     "access": "public"
   },
   "dependencies": {
-    "@rambler-tech/local-storage": "^0.1.4",
-    "@rambler-tech/url": "^0.1.1",
-    "@types/debug": "^4.1.7",
-    "debug": "^3"
+    "@types/md5": "^2.1.33",
+    "@types/sha.js": "^2.4.0",
+    "md5": "^2.2.1",
+    "sha.js": "^2.4.11"
   }
 }

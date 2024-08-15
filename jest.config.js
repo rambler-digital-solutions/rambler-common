@@ -5,5 +5,8 @@ module.exports = {
   moduleDirectories: ['packages', 'node_modules'],
   collectCoverage: true,
   coverageReporters: ['text'],
-  setupFilesAfterEnv: ['./jest.setup.js']
+  setupFilesAfterEnv: ['./jest.setup.js'],
+  testEnvironmentOptions: {
+    url: 'https://example.com/'
+  }
 }

@@ -1,10 +1,13 @@
 /* eslint-disable import/no-unused-modules */
 
-export type ParsedQuery<T = string> = Record<string, T | T[] | null | undefined>
-
+/** Query object */
 export type Query = Record<string, any>
 
-interface UrlObject {
+/** Parsed query object */
+export type ParsedQuery<T = string> = Record<string, T | T[] | null | undefined>
+
+/** URL object */
+export interface UrlObject {
   protocol?: string | null
   host?: string | null
   pathname?: string | null

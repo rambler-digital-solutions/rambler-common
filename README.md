@@ -4,13 +4,22 @@ Common utils used by Rambler team
 
 ## Packages
 
+- [@rambler-tech/async](packages/async)
 - [@rambler-tech/cookie-storage](packages/cookie-storage)
+- [@rambler-tech/crypto](packages/crypto)
 - [@rambler-tech/debug](packages/debug)
-- [@rambler-tech/lhci-report](packages/lhci-report)
+- [@rambler-tech/dom](packages/dom)
+- [@rambler-tech/errors](packages/errors)
 - [@rambler-tech/local-storage](packages/local-storage)
 - [@rambler-tech/session-storage](packages/session-storage)
+- [@rambler-tech/lhci-report](packages/lhci-report)
+- [@rambler-tech/local-storage](packages/local-storage)
+- [@rambler-tech/react](packages/react)
+- [@rambler-tech/session-storage](packages/session-storage)
+- [@rambler-tech/splits](packages/splits)
 - [@rambler-tech/tns-counter](packages/tns-counter)
 - [@rambler-tech/top-100](packages/top-100)
+- [@rambler-tech/transport](packages/transport)
 - [@rambler-tech/url](packages/url)
 - [@rambler-tech/yandex-metrica](packages/yandex-metrica)
 
