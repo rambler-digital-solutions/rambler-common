@@ -6,8 +6,11 @@ const debug = createDebug('common:top-100')
 
 /** Top 100 options */
 export interface Top100Options {
+  /** Project ID */
   project: number
+  /** Blocks data attributes */
   dataset: string[]
+  /** Counter parameters */
   params?: Record<string, any>
 }
 
@@ -19,6 +22,7 @@ export class Top100 {
   /** Promise that resolves when counter is ready */
   ready: Promise<void>
 
+  /** Top 100 counter constructor */
   constructor(options: Top100Options) {
     this.options = options
 

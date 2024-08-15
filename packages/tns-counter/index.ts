@@ -2,14 +2,18 @@
 
 /** TNS counter options */
 export interface TnsCounterOptions {
+  /** Account ID */
   account: string
+  /** Param */
   tmsec: string
 }
 
 /** TNS counter */
 export class TnsCounter {
+  /** Promise that resolves when counter is ready */
   ready: Promise<void>
 
+  /** TNS counter constructor */
   constructor(options: TnsCounterOptions) {
     this.ready = new Promise((resolve) => {
       if (process.env.NODE_ENV === 'development') {

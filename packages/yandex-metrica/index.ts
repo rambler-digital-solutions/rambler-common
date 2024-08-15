@@ -15,7 +15,9 @@ const DEFAULT_YANDEX_METRICA_PARAMS = {
 
 /** Yandex Metrica options */
 export interface YandexMetricaOptions {
+  /** Tag ID */
   id: number
+  /** Counter parameters */
   params?: Record<string, any>
 }
 
@@ -27,6 +29,7 @@ export class YandexMetrica {
   /** Promise that resolves when counter is ready */
   ready: Promise<void>
 
+  /** Yandex Metrica counter constructor */
   constructor(options: YandexMetricaOptions) {
     this.options = options
 
