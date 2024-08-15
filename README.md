@@ -17,6 +17,7 @@ Common utils used by Rambler team
 - [@rambler-tech/react](packages/react)
 - [@rambler-tech/session-storage](packages/session-storage)
 - [@rambler-tech/splits](packages/splits)
+- [@rambler-tech/transport](packages/transport)
 - [@rambler-tech/url](packages/url)
 
 ## Contributing

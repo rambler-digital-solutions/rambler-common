@@ -40,6 +40,10 @@
     "limit": "1.6 KB"
   },
   {
+    "path": "packages/transport/dist/index.js",
+    "limit": "675 B"
+  },
+  {
     "path": "packages/url/dist/index.js",
     "limit": "675 B"
   }
