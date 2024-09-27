@@ -1,6 +1,6 @@
 {
   "name": "@rambler-tech/splits",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "dist",
   "module": "dist",
   "types": "dist/index.d.ts",
@@ -10,6 +10,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@rambler-tech/cookie-storage": "^0.2.4"
+    "@rambler-tech/cookie-storage": "^0.2.5"
   }
 }

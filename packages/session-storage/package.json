@@ -1,6 +1,6 @@
 {
   "name": "@rambler-tech/session-storage",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "main": "dist",
   "module": "dist",
   "types": "dist/index.d.ts",

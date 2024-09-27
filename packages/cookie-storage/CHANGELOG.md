@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.5](https://github.com/rambler-digital-solutions/rambler-common/compare/@rambler-tech/cookie-storage@0.2.4...@rambler-tech/cookie-storage@0.2.5) (2024-09-27)
+
+**Note:** Version bump only for package @rambler-tech/cookie-storage
+
 ## [0.2.4](https://github.com/rambler-digital-solutions/rambler-common/compare/@rambler-tech/cookie-storage@0.2.3...@rambler-tech/cookie-storage@0.2.4) (2024-03-25)
 
 ### Bug Fixes
