@@ -1,1 +1,9 @@
-../../tsconfig.package.json
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "baseUrl": ".",
+    "outDir": "dist"
+  },
+  "include": [".", "../../types"]
+}
