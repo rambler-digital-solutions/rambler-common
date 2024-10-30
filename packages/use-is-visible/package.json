@@ -1,0 +1,15 @@
+{
+  "name": "@rambler-tech/use-is-visible",
+  "version": "0.0.0",
+  "main": "dist",
+  "module": "dist",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  }
+}

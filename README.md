@@ -19,6 +19,8 @@ Common utils used by Rambler team
 - [@rambler-tech/splits](packages/splits)
 - [@rambler-tech/transport](packages/transport)
 - [@rambler-tech/url](packages/url)
+- [@rambler-tech/use-is-visible](packages/use-is-visible)
+- [@rambler-tech/use-transition-visible](packages/use-transition-visible)
 
 ## Contributing
 
