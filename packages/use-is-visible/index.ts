@@ -33,7 +33,7 @@ export function useIsVisible(
     return () => {
       observer.disconnect()
     }
-  }, [element])
+  }, [element, options])
 
   return isVisible
 }
