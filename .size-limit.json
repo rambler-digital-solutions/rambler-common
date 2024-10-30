@@ -46,5 +46,13 @@
   {
     "path": "packages/url/dist/index.js",
     "limit": "675 B"
+  },
+  {
+    "path": "packages/use-is-visible/dist/index.js",
+    "limit": "3.08 KB"
+  },
+  {
+    "path": "packages/use-transition-visible/dist/index.js",
+    "limit": "3.93 KB"
   }
 ]
