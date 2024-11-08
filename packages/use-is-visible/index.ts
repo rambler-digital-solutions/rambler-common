@@ -4,7 +4,10 @@ import {useEffect, useState} from 'react'
 /** Tracks the intersection of an element with its parent or document's viewport. */
 export function useIsVisible(
   element: Element,
-  options: IntersectionObserverInit = {threshold: 1}
+  options: IntersectionObserverInit & {once: boolean} = {
+    threshold: 1,
+    once: false
+  }
 ): boolean {
   const [isVisible, setIsVisible] = useState(false)
 
@@ -23,6 +26,10 @@ export function useIsVisible(
             thresholds.some((threshold) => entry.intersectionRatio >= threshold)
 
           setIsVisible(isIntersecting)
+
+          if (isIntersecting && options.once) {
+            observer.disconnect()
+          }
         })
       },
       options
