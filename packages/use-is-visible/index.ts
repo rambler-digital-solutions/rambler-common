@@ -1,13 +1,21 @@
 /* eslint-disable import/no-unused-modules */
 import {useEffect, useState} from 'react'
 
+const DEFAULT_OPTIONS = {
+  threshold: 1,
+  once: false
+}
+
+/** Use is visible options */
+export interface UseIsVisibleOptions extends IntersectionObserverInit {
+  /** Track intersection once */
+  once: boolean
+}
+
 /** Tracks the intersection of an element with its parent or document's viewport. */
 export function useIsVisible(
   element: Element,
-  options: IntersectionObserverInit & {once: boolean} = {
-    threshold: 1,
-    once: false
-  }
+  options: UseIsVisibleOptions = DEFAULT_OPTIONS
 ): boolean {
   const [isVisible, setIsVisible] = useState(false)
 
