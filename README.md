@@ -17,10 +17,13 @@ Common utils used by Rambler team
 - [@rambler-tech/react](packages/react)
 - [@rambler-tech/session-storage](packages/session-storage)
 - [@rambler-tech/splits](packages/splits)
+- [@rambler-tech/tns-counter](packages/tns-counter)
+- [@rambler-tech/top-100](packages/top-100)
 - [@rambler-tech/transport](packages/transport)
 - [@rambler-tech/url](packages/url)
 - [@rambler-tech/use-is-visible](packages/use-is-visible)
 - [@rambler-tech/use-transition-visible](packages/use-transition-visible)
+- [@rambler-tech/yandex-metrica](packages/yandex-metrica)
 
 ## Contributing
 

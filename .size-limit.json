@@ -40,6 +40,14 @@
     "limit": "1.5 KB"
   },
   {
+    "path": "packages/tns-counter/dist/index.js",
+    "limit": "450 B"
+  },
+  {
+    "path": "packages/top-100/dist/index.js",
+    "limit": "4.1 KB"
+  },
+  {
     "path": "packages/transport/dist/index.js",
     "limit": "475 B"
   },
@@ -54,5 +62,9 @@
   {
     "path": "packages/use-transition-visible/dist/index.js",
     "limit": "3.93 KB"
+  },
+  {
+    "path": "packages/yandex-metrica/dist/index.js",
+    "limit": "4.0 KB"
   }
 ]
