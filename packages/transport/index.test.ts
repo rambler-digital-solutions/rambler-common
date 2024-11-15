@@ -1,4 +1,4 @@
-import {request} from '.'
+import {request, createRequest} from '.'
 
 const fetchMock = jest.fn(() =>
   Promise.resolve({
@@ -64,6 +64,24 @@ test('request api with timeout', async () => {
     signal: expect.any(AbortSignal),
     headers: {
       'Content-Type': 'application/json'
+    }
+  })
+})
+
+test('create request api', async () => {
+  const request = createRequest('/api', {
+    headers: {
+      'Request-Id': '1234'
+    }
+  })
+
+  await request('/endpoint', {})
+
+  expect(fetchMock).toHaveBeenCalledWith('/api/endpoint', {
+    method: 'get',
+    headers: {
+      'Content-Type': 'application/json',
+      'Request-Id': '1234'
     }
   })
 })

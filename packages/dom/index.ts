@@ -48,7 +48,10 @@ export function loadStyleSheet(source: string): Promise<HTMLLinkElement> {
 }
 
 /** Load script */
-export function loadScript(source: string): Promise<HTMLScriptElement> {
+export function loadScript(
+  source: string,
+  attributes: Record<string, any> = {}
+): Promise<HTMLScriptElement> {
   globalThis[REGISTRY][source] ??= new Promise<HTMLScriptElement>(
     (resolve, reject) => {
       const script = document.createElement('script')
@@ -56,6 +59,12 @@ export function loadScript(source: string): Promise<HTMLScriptElement> {
       script.src = source
       script.async = true
       script.type = 'text/javascript'
+
+      if (attributes) {
+        Object.entries(attributes).forEach(([name, value]) => {
+          script.setAttribute(name, value)
+        })
+      }
 
       script.onload = () => {
         resolve(script)

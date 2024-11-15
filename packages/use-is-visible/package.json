@@ -1,6 +1,6 @@
 {
-  "name": "@rambler-tech/local-storage",
-  "version": "0.1.5",
+  "name": "@rambler-tech/use-is-visible",
+  "version": "0.2.0",
   "main": "dist",
   "module": "dist",
   "types": "dist/index.d.ts",
@@ -8,5 +8,8 @@
   "sideEffects": false,
   "publishConfig": {
     "access": "public"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
   }
 }

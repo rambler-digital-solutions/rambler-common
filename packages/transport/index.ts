@@ -69,3 +69,15 @@ export async function request<T>(
 
   return response.json()
 }
+
+/** Request factory */
+export function createRequest(
+  url = '',
+  options: RequestOptions = {}
+): typeof request {
+  return <T>(endpoint = '', requestOptions: RequestOptions = {}) =>
+    request<T>(url + endpoint, {
+      ...options,
+      ...requestOptions
+    })
+}

@@ -5,7 +5,7 @@
   },
   {
     "path": "packages/cookie-storage/dist/index.js",
-    "limit": "990 B"
+    "limit": "850 B"
   },
   {
     "path": "packages/crypto/dist/index.js",
@@ -17,11 +17,11 @@
   },
   {
     "path": "packages/dom/dist/index.js",
-    "limit": "500 B"
+    "limit": "525 B"
   },
   {
     "path": "packages/errors/dist/index.js",
-    "limit": "290 B"
+    "limit": "275 B"
   },
   {
     "path": "packages/local-storage/dist/index.js",
@@ -37,7 +37,7 @@
   },
   {
     "path": "packages/splits/dist/index.js",
-    "limit": "1.6 KB"
+    "limit": "1.5 KB"
   },
   {
     "path": "packages/tns-counter/dist/index.js",
@@ -49,11 +49,19 @@
   },
   {
     "path": "packages/transport/dist/index.js",
-    "limit": "675 B"
+    "limit": "475 B"
   },
   {
     "path": "packages/url/dist/index.js",
     "limit": "675 B"
+  },
+  {
+    "path": "packages/use-is-visible/dist/index.js",
+    "limit": "3.1 KB"
+  },
+  {
+    "path": "packages/use-transition-visible/dist/index.js",
+    "limit": "3.93 KB"
   },
   {
     "path": "packages/yandex-metrica/dist/index.js",
