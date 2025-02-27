@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/rambler-digital-solutions/rambler-common/compare/@rambler-tech/use-transition-visible@0.1.0...@rambler-tech/use-transition-visible@0.1.1) (2025-02-27)
+
+### Bug Fixes
+
+- added new useTransitionVisible ([44438b2](https://github.com/rambler-digital-solutions/rambler-common/commit/44438b25e0296bc35bc871301b9828b1cacfe405))
+
 # 0.1.0 (2024-10-30)
 
 ### Bug Fixes
